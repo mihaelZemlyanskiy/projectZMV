@@ -1,0 +1,204 @@
+.stDiz {/*Стандартный дизайн.Беграунд*/
+	background-image: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/PAO.jpg) ;
+	background-attachment: fixed;
+	background-size: 120%;
+	margin: 0px;
+	cursor: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/cursor/cur1054.cur), default;
+}
+.newDiz {/*Новый дизайн.Беграунд*/
+	background-image: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/oilhim.jpg) ;
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: 0px;
+	cursor: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/cursor/cur1054.cur), default;
+	
+}
+	/*cursor: url(cursor/cur1047.cur), text;*/
+
+.links {					/*Цвет ссылок*/
+	color: black;
+	text-decoration: none;
+	display: block; /*картинки либо в столбик либо окно не является ссылкой*/
+	cursor: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/cursor/cur1049.cur), pointer;
+}
+.links:visited {
+	color: black;
+}
+.links:active {
+	color: black;
+}
+
+	
+
+
+.punkt {	/*Пункты: Рамки, Анимация*/
+		
+		background-color: #C9DBD7;
+		border-bottom-color: #FFFFFF;
+		border: 2px solid black;
+		border-radius: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding-top: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 5px;
+			/*cursor: url(cursor/cur1049.cur), pointer;*/
+}			
+.up {
+	position:fixed;
+}
+.upNew {
+	/*position:fixed;*/
+}
+.punkt:hover{
+		background-color: #9CACA9; /*#C0D1CE;*/
+		/*cursor: url(cursor/cur1049.cur), pointer;*/
+}
+
+.header { 							/*Шапка*/
+	width: 100%;
+	background-color: #1D548D       /*#6C6E6E*/ ;	
+	color: #FFFFFF; 				/* Цвет шрифта */
+	font-family: Georgia;/* "impact";*/			/* Название шрифта */
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	border-bottom: 2px solid #000000;
+}
+.headerNew { 	
+	background-color: #7A899A; 
+	font-family: impact;
+	position:fixed;
+}
+
+
+.TeloLabiOld							/*Место для Текста.Старый*/
+{
+	background:rgba(186, 223, 228, 0.70)/*107, 119, 117, 0.70 )*/;
+	margin-top: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.RightBlockOld{
+	float:left;
+	width: 10px;}
+
+.TeloLabiNew							/*Место для Текста.Новый*/
+{
+	background:rgba(186, 223, 228, 0.70)/*107, 119, 117, 0.70 )*/;
+	margin-top: 0px;
+	padding-top:200px;
+	border-top: 0px;	
+}
+.end {/*Подвал*/
+		width: 100%;
+	background-color: #1D548D    ;	
+	color: #000000; 				/* Цвет шрифта */
+	font-family: "Georgia";/* "impact";*/			/* Название шрифта */
+	border-top: 2px solid #000000;
+}
+.endNew
+{/*Подвал.Новый*/
+	background-color: #7A899A;
+}
+#partners {
+	width: 40%;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	/**/
+}
+.company {
+	cursor: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/cursor/cur1051.cur), pointer;
+}
+
+.heading {							/* Заголовок */
+	
+	font-size: 35px;
+	margin-bottom: 10px;			
+	color: #FFFFFF;	
+	
+}
+.headingNew {
+	font-size: 5px;
+	
+}
+.Avtoreferat{
+	font-size: 18pt;
+}
+.text {
+	font-size: 20px;
+	line-height: 1.5;
+	text-indent: 20px;
+}
+	
+#creators
+		{			/* Авторы */
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: times new roman;
+	font-size: 17px;
+	font-style: italic;
+	}
+#creators_i
+		{			/* Авторы */
+	margin-right: 115px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: times new roman;
+	font-size: 17px;
+	font-style: italic;
+	}
+					/*Раскрывающийся текст*/
+	.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+
+.hide + label {
+    border-bottom: 1px solid #0B0749 ;
+    padding: 0;
+    color:  #0B0749 ; /*#1D548D*/ 
+    cursor: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/cursor/cur1049.cur), pointer;
+    display: inline-block; 
+}
+
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+
+.hide:checked + label + div {
+    display: block; 
+    background:rgba(201, 219, 215, 0.75);		
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+	
+}
+button {
+	cursor: url(C:/Users/mihae/Desktop/Магистартура/доп1/laba2_js.button/2.лаба/img/cursor/cur1049.cur), pointer;
+	color: #000000;
+	padding: 5px;
+	
+	border-radius: 30px; 
+	background-color: #BEC0CA /*#FFFFFF*/; 
+}
+.button1{
+	margin: 5px;
+}
+.theme{
+	margin: 5px;
+	margin-left: 20px;
+}
